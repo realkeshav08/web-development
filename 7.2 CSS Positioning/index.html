@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Positioning Exercise</title>
+  <style>
+    /* Write your code here */
+    .red-circle{
+      background-color: red;
+      height: 200px;
+      width: 200px;
+      /* without heigth and width, this circle wont be visible as it doesn't contain any element */
+      border-radius: 50%;
+
+      position:absolute;
+      /* top:150px;
+      left:250px; */
+      top:50%;
+      left:50%;
+    }
+
+    .blue-box{
+      /* position: relative; */
+      /* position: relative; */
+      position:fixed;
+  
+      top:200px;
+      left: 200px;
+      background-color: blue;
+      width: 500px;
+      height: 300px;
+    }
+
+
+  </style>
+</head>
+
+<body>
+  <div class="blue-box">
+    <div class="red-circle">
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+/* Don't change the existing CSS. */
+
+.box {
+  background-color: blue;
+  padding: 10px;
+}
+
+p {
+  color: yellow;
+  margin: 0;
+  padding: 0;
+}
+
+/* new code */
+.white-text{
+  color:white;
+}
+.inner-box{
+  background-color: red;
+}
+/* this should be lower to box class */
+#outer-box{
+  /* border:10px solid purple; Even this is working right
+  padding:10px; we dont need this line as we already have padding done here, ie padding wont change anything until me change
+  pixel as it is more specific  */
+  background-color: purple;
+}

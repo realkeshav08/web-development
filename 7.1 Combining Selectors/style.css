@@ -1,0 +1,44 @@
+/* Write your code here: */
+h1, h2{
+    color:blueviolet;
+}
+
+div > p{
+    color: firebrick;
+}
+/* 
+.box > p {
+    color: firebrick;
+}
+     */
+.box li{
+    color: blue;
+}
+
+/* div ul .done{
+    color:seagreen;
+} */
+
+li.done{
+    color:seagreen;
+}
+
+ul > p.done{
+    font-size: 0.5rem;
+}
+/* ul p.done{
+    font-size: 0.5rem;
+} */
+/* body > ul{
+    font-size: 0.5rem;
+} */
+/* ul p{
+    font-size: 0.5rem;
+}
+    */
+
+
+/*  
+ul > p{
+    font-size: 0.5rem;
+} */
