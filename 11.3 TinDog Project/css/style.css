@@ -17,26 +17,63 @@
 }
 
 .icon-square {
-  /* display: inline; */
-  width: 3rem;
+  width: 5rem;
   height: 3rem;
   border-radius: 0.75rem;
-  background-color: rgb(233, 236, 239);
-}
-
-#testimonial{
-  background-color: rgb(248, 249, 250);
-  text-align: center;
-}
-.testimonial{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
 }
 
 .profile-img {
   height: 100px;
   border-radius: 50%;
 }
+
+
+.marks{
+  background-color: #E9ECEF !important;
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.feat{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+@media(max-width:992px){
+.feat{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+}
+
+.testi{
+  background-color: #F8F9FA;
+  width:100%;
+}
+
+
+
+
+
+.aligning{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+@media(min-width:768px){
+  .aligning{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+}
+
